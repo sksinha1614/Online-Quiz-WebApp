@@ -1,0 +1,309 @@
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "verdana", "Times Roman", sans-serif;
+background-color:#ededed !important;
+min-height:550px;
+background-attachment:fixed;
+margin:0px;
+padding:0px;
+
+}
+.navbar{
+
+    background-color:white !important;
+    background-image:none !important;
+    -webkit-box-shadow:0 5px 0px rgba(253, 253, 253, 0.7) !important;
+    box-shadow: 0 5px 0px rgba(245, 245, 245, 0.7) !important;
+}
+.bg
+{
+min-height:540px;
+
+}
+.bg1
+{
+background-color: rgb(255, 255, 255);
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+background-color: white;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+
+
+.button_primary{
+
+    background-color: black;
+    border:2px solid black !important;
+    color:white !important;
+    padding:5px;
+    border-radius: 5px;
+
+}
+
+.answer_checked{
+    background-color: rgb(185, 255, 216);
+    border:1px solid rgb(185, 255, 216) !important;
+   
+    
+}
+.register_form{
+
+    padding:25px;
+    box-shadow: 0 20px 50px rgba(202, 202, 202, 0.7);
+    border-radius:15px;
+    margin-top:5%;
+    margin-bottom:15%;
+    
+}
+.title
+{
+font-family:'typo';
+}
+
+.header
+{
+background:white;
+height:80px;
+}
+.logo
+{
+font-family:'Ubuntu';
+font-size:35px;
+color:#ffbb33;
+margin:15px;
+}
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", "sans-serif";
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1
+{
+width:90px;
+color:#202020;
+background:rgb(230, 230, 230);
+font-size:15px;
+height:35px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+
+
+.sub
+{
+width:100%;
+background-color:#9acd32;
+font-size:20px;
+color:red;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+color:#fff;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+
+
+}
+.footer a
+{
+margin:25px;
+
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+
+border-top:2px solid;
+
+
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:grey;
+font-weight: bold;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+
+border-bottom:2px solid;
+border-color:orange;
+text-decoration:none;
+}
+
+.quiz_option{
+    border:1px solid #ededed;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 3px;
+    min-width: 100%;
+    margin:5px;
+}
+
+.quiz_option input{
+    position:absolute;
+    visibility:hidden;
+}
+.submit_button{
+    display:grid;
+}
+.submit_button button{
+    justify-self:end;
+}
+
+
+.quiz_header{
+    padding:1%;
+    color:black;
+    border-radius:5px;
+}
+
+.quiz_header #countdown_span{
+
+    float:right;
+}
+
+.form-group input{
+     border:1px solid #ededed;
+     height:45px;
+     border-radius: 5px;
+     padding-left:5px;
+     
+}
+
+.form-group select{
+
+    border:1px solid #ededed;
+     height:45px;
+     border-radius: 5px;
+     
+}
+
+.custom_table{
+
+    box-shadow: 0 2px 5px rgba(202, 202, 202, 0.7);
+    background-color:white !important;
+    border-radius:10px;
+    margin-top: 5%;
+}
+
+.custom_table th{
+    background:#ededed;
+}
+
+.custom_table tr{
+    border-bottom:2px solid #ededed;
+    border-radius:3px;
+}
+.custom_table td {
+      
+    padding:25px;
+    
+    
+    
+    
+}
+
+.tab {
+    display: none;
+  }
+
+  #prevBtn{
+       height: 40px;
+       width:80px;
+       background-color: rgb(255, 201, 101);
+       border:0px;
+       border-radius: 3px;
+       padding:5px;
+    
+    }
+
+    #nextBtn{
+        height: 40px;
+        width:80px;
+        background-color: lightgreen;
+        border-radius: 3px;
+        border:0px;
+        padding:5px;
+     
+     }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
